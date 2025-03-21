@@ -1,0 +1,24 @@
+package:
+  name: setup-omz
+  version: "0.1.0"
+
+source:
+  path: ..
+
+build:
+  noarch: python
+  script: python -m pip install .  # Install via pip
+  number: 1
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+    - git
+
+about:
+  home: "Private"
+  license: "MIT"
+  summary: "Automates Oh My Zsh setup with plugins, themes, and Conda integration."

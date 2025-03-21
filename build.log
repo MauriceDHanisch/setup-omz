@@ -1,0 +1,157 @@
+Adding in variants from internal_defaults
+Attempting to finalize metadata for omz-setup
+Reloading output folder: ...working... done
+Getting pinned dependencies: ...working... done
+Reloading output folder: ...working... done
+Getting pinned dependencies: ...working... done
+BUILD START: ['omz-setup-0.1.0-py_1.conda']
+Reloading output folder: ...working... done
+Solving environment (_h_env): ...working... done
+
+## Package Plan ##
+
+  environment location: /home/maurice/clear/envs/omz/conda-bld/omz-setup_1741287663531/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-main              
+    _openmp_mutex:    5.1-1_gnu             
+    bzip2:            1.0.8-h5eee18b_6      
+    ca-certificates:  2025.2.25-h06a4308_0  
+    ld_impl_linux-64: 2.40-h12ee557_0       
+    libffi:           3.4.4-h6a678d5_1      
+    libgcc-ng:        11.2.0-h1234567_1     
+    libgomp:          11.2.0-h1234567_1     
+    libstdcxx-ng:     11.2.0-h1234567_1     
+    libuuid:          1.41.5-h5eee18b_0     
+    ncurses:          6.4-h6a678d5_0        
+    openssl:          3.0.16-h5eee18b_0     
+    pip:              25.0-py310h06a4308_0  
+    python:           3.10.16-he870216_1    
+    readline:         8.2-h5eee18b_0        
+    setuptools:       75.8.0-py310h06a4308_0
+    sqlite:           3.45.3-h5eee18b_0     
+    tk:               8.6.14-h39e8969_0     
+    tzdata:           2025a-h04d1e81_0      
+    wheel:            0.45.1-py310h06a4308_0
+    xz:               5.6.4-h5eee18b_1      
+    zlib:             1.2.13-h5eee18b_1     
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Reloading output folder: ...working... done
+Solving environment (_test_env): ...working... done
+Copying /home/maurice/projects/omz-setup to /home/maurice/clear/envs/omz/conda-bld/omz-setup_1741287663531/work/
+
+Rendered as:
+```yaml
+package:
+  name: omz-setup
+  version: 0.1.0
+source:
+  path: /home/maurice/projects/omz-setup
+build:
+  noarch: python
+  number: '1'
+  script: python -m pip install .
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - ca-certificates 2025.2.25 h06a4308_0
+    - ld_impl_linux-64 2.40 h12ee557_0
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - tzdata 2025a h04d1e81_0
+    - libgomp 11.2.0 h1234567_1
+    - _openmp_mutex 5.1 1_gnu
+    - libgcc-ng 11.2.0 h1234567_1
+    - bzip2 1.0.8 h5eee18b_6
+    - libffi 3.4.4 h6a678d5_1
+    - libuuid 1.41.5 h5eee18b_0
+    - ncurses 6.4 h6a678d5_0
+    - openssl 3.0.16 h5eee18b_0
+    - xz 5.6.4 h5eee18b_1
+    - zlib 1.2.13 h5eee18b_1
+    - readline 8.2 h5eee18b_0
+    - tk 8.6.14 h39e8969_0
+    - sqlite 3.45.3 h5eee18b_0
+    - python 3.10.16 he870216_1
+    - setuptools 75.8.0 py310h06a4308_0
+    - wheel 0.45.1 py310h06a4308_0
+    - pip 25.0 py310h06a4308_0
+  run:
+    - python
+    - git
+about:
+  home: Private
+  license: MIT
+  summary: Automates Oh My Zsh setup with plugins, themes, and Conda integration.
+extra:
+  copy_test_source_files: true
+  final: true
+```
+
+source tree in: /home/maurice/clear/envs/omz/conda-bld/omz-setup_1741287663531/work
+export PREFIX=/home/maurice/clear/envs/omz/conda-bld/omz-setup_1741287663531/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export BUILD_PREFIX=/home/maurice/clear/envs/omz/conda-bld/omz-setup_1741287663531/_build_env
+export SRC_DIR=/home/maurice/clear/envs/omz/conda-bld/omz-setup_1741287663531/work
+Processing $SRC_DIR
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: omz-setup
+  Building wheel for omz-setup (setup.py): started
+  Building wheel for omz-setup (setup.py): finished with status 'done'
+  Created wheel for omz-setup: filename=omz_setup-0.1.0-py3-none-any.whl size=3200 sha256=2e96cade71ec73f60aa98ebc686bb3996341afec6ddc076a4160b931622ba77a
+  Stored in directory: /tmp/pip-ephem-wheel-cache-z80w3pci/wheels/98/77/5b/9112a5704aae061a5925731322473da601a76499adf2be7bc5
+Successfully built omz-setup
+Installing collected packages: omz-setup
+Successfully installed omz-setup-0.1.0
+
+Resource usage statistics from building omz-setup:
+   Process count: 2
+   CPU time: Sys=-, User=0:00:00.0
+   Memory: 11.3M
+   Disk usage: 104B
+   Time elapsed: 0:00:02.0
+
+
+Packaging omz-setup
+Packaging omz-setup-0.1.0-py_1
+number of files: 12
+Fixing permissions
+INFO :: Time taken to mark (prefix)
+        0 replacements in 0 files was 0.02 seconds
+Files containing CONDA_PREFIX
+-----------------------------
+python-scripts/omz-setup (text): Patching
+TEST START: /home/maurice/clear/envs/omz/conda-bld/noarch/omz-setup-0.1.0-py_1.conda
+Adding in variants from /tmp/tmpu54qcv0v/info/recipe/conda_build_config.yaml
+Nothing to test for: /home/maurice/clear/envs/omz/conda-bld/noarch/omz-setup-0.1.0-py_1.conda
+Renaming work directory '/home/maurice/clear/envs/omz/conda-bld/omz-setup_1741287663531/work' to '/home/maurice/clear/envs/omz/conda-bld/omz-setup_1741287663531/work_moved_omz-setup-0.1.0-py_1_linux-64_main_build_loop'
+shutil.move(work)=/home/maurice/clear/envs/omz/conda-bld/omz-setup_1741287663531/work, dest=/home/maurice/clear/envs/omz/conda-bld/omz-setup_1741287663531/work_moved_omz-setup-0.1.0-py_1_linux-64_main_build_loop)
+# Automatic uploading is disabled
+# If you want to upload package(s) to anaconda.org later, type:
+
+
+# To have conda build upload to anaconda.org automatically, use
+# conda config --set anaconda_upload yes
+anaconda upload \
+    /home/maurice/clear/envs/omz/conda-bld/noarch/omz-setup-0.1.0-py_1.conda
+anaconda_upload is not set.  Not uploading wheels: []
+
+INFO :: The inputs making up the hashes for the built packages are as follows:
+{
+  "omz-setup-0.1.0-py_1.conda": {
+    "recipe": {}
+  }
+}
+
+
+####################################################################################
+Resource usage summary:
+
+Total time: 0:00:12.1
+CPU usage: sys=0:00:00.0, user=0:00:00.0
+Maximum memory usage observed: 11.3M
+Total disk usage observed (not including envs): 104B
