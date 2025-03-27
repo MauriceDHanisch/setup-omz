@@ -4,7 +4,7 @@ else
     PROMPT="%F{yellow}%B%n@%m "  # Yellow for locals
 fi
 PROMPT+="%(?:%{$fg_bold[green]%}%1{➜%} :%{$fg_bold[red]%}%1{➜%} )"
-PROMPT+=" %F{cyan}%B%~%b%f"  # Full path, with home shortened to ~
+PROMPT+=" %F{cyan}%B%50<...<%~%b%f"
 
 PROMPT+=' $(git_prompt_info)'
 
