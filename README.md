@@ -1,4 +1,4 @@
-# setup-omz
+# omz-setup
 
 Install Oh My Zsh with custom theme and plugins in one command.
 
