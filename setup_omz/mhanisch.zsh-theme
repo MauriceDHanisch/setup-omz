@@ -1,7 +1,7 @@
 if [[ -n $SSH_CONNECTION ]]; then
     PROMPT="%F{141}%B%n@%m "  # Purple for SSH
 else
-    PROMPT="%F{yellow}%B%n@%m "  # Yellow for locals
+    PROMPT="%F{120}%B%n@%m "
 fi
 PROMPT+="%(?:%{$fg_bold[green]%}%1{➜%} :%{$fg_bold[red]%}%1{➜%} )"
 PROMPT+=" %F{cyan}%B%50<...<%~%b%f"
