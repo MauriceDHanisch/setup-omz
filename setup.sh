@@ -73,6 +73,7 @@ cp "$SETUP_DIR/setup_omz/.zshrc" ~/.zshrc
 echo "Cleaning up temporary files..."
 cd ~
 rm -rf "$SETUP_DIR"
+echo "✓ Temporary directory cleaned"
 
 echo ""
 echo "✅ Setup complete!"
